@@ -31,8 +31,8 @@ namespace Tolitech.CodeGenerator.Logging.Database.MySql
         {
             get
             {
-                return @"insert into Cg_Log
-                    (LogId, Time, UserName, HostName, Category, Level, Text, Exception, EventId, ActivityId, UserId, LoginName, ActionId, ActionName, RequestId, RequestPath, FilePath, Sql, Parameters, StateText, StateProperties, ScopeText, ScopeProperties) 
+                return @"insert into `Cg_Log`
+                    (`LogId`, `Time`, `UserName`, `HostName`, `Category`, `Level`, `Text`, `Exception`, `EventId`, `ActivityId`, `UserId`, `LoginName`, `ActionId`, `ActionName`, `RequestId`, `RequestPath`, `FilePath`, `Sql`, `Parameters`, `StateText`, `StateProperties`, `ScopeText`, `ScopeProperties`) 
                     values 
                     (@logId, @time, @userName, @hostName, @category, @level, @text, @exception, @eventId, @activityId, @userId, @loginName, @actionId, @actionName, @requestId, @requestPath, @filePath, @sql, @parameters, @stateText, @stateProperties, @scopeText, @scopeProperties)";
             }
