@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  tolitech.codegenerator.logging.database.mysql:
+    container_name: tolitech.codegenerator.logging.database.mysql
+    image: ${DOCKER_REGISTRY-}tolitech.codegenerator.logging.database.mysql
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports: 
+      - "3306:3306"
