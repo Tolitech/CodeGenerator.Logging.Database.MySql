@@ -1,4 +1,4 @@
-# Logging.Database.MySql
+# Tolitech.CodeGenerator.Logging.Database.MySql
 Logging database MySQL library used in projects created by the Code Generator tool. 
 
 This project contains the implementation and customization of classes for using the logging database provider with the MySQL database. 
